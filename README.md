@@ -2,14 +2,13 @@
 
 This repo is for generating statistics used in the datasheets found in the 'Causal Datasheet' paper.
 
-To run the code first install the python requirements from the requirements.txt:
+To run the code first install the python requirements from the requirements.txt; e.g.:
 
-`pip install -r requirements.txt`
+`conda create --name <env> --file requirements.txt`
 
-Following this, R, and some R libraries must be installed:
+Following this, R, along with some R libraries must be installed (ensure R > 3.6):
 
-`apt-get -q install r-base -y --allow-unauthenticated`
-`Rscript -e 'source("http://bioconductor.org/biocLite.R"); biocLite(c("CAM", "SID", "bnlearn", "pcalg", "kpcalg", "D2C"))'`
+`. install-R-dependencies.sh`
 
 Finally, one can then open the jupyter notebook with:
 
