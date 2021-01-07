@@ -8,7 +8,7 @@ async-generator=1.10=pypi_0
 attrs=20.3.0=pypi_0
 babel=2.9.0=pypi_0
 backcall=0.2.0=pypi_0
-baynet=0.2.3=pypi_0
+baynet=0.3.0=pypi_0
 bleach=3.2.1=pypi_0
 ca-certificates=2020.12.8=h06a4308_0
 cdt=0.5.22=pypi_0
