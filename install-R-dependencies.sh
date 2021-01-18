@@ -1,5 +1,8 @@
 #!/bin/bash
 
+sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu xenial-cran35/'
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+sudo apt update
 apt-get update
 DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata
 apt-get -q install r-base -y --allow-unauthenticated
