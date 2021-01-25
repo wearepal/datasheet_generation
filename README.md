@@ -16,8 +16,14 @@ Launch the docker container with:
 
 Navigate into the Causal Datasheet repo folder:
 
-`cd causal_datasheet`
+`cd datasheet_generation`
 
-Finally, run the notebook with:
+Run the notebook with:
 
 `jupyter notebook --ip 0.0.0.0 --no-browser --allow-root`
+
+Finally, navigate to:
+
+`http://127.0.0.1:8888/tree`
+
+accessed using the token provided in the terminal.
