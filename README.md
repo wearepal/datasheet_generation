@@ -2,7 +2,9 @@
 
 This repo is for generating statistics used in the datasheets found in the 'Causal Datasheet' paper.
 
-These experiments are dependent on the structure learning algorithms found in the Causal Discovery Toolbox Python library (https://fentechsolutions.github.io/CausalDiscoveryToolbox/html/index.html). As well as it's own implementations, this library wraps around many useful R libraries. Installing these correctly can be a difficult process, and so we have pre-installed all the required libraries into a docker image.
+These experiments are dependent on the structure learning algorithms found in the Causal Discovery Toolbox (CDT) Python library (https://fentechsolutions.github.io/CausalDiscoveryToolbox/html/index.html). As well as it's own implementations, this library wraps around many useful R libraries. Installing these correctly can be a difficult process, and so we have pre-installed all the required libraries into a docker image.
+
+### Installation via Docker
 
 To run the code first install docker: https://docs.docker.com/get-docker/
 
@@ -27,3 +29,19 @@ Finally, navigate to:
 `http://127.0.0.1:8888/tree`
 
 accessed using the token provided in the terminal.
+
+### Alternative Installation
+
+If you would like to avoid using docker, you will need to install the Python libraries found in the `requirements.txt` file.
+Additionally, as mentioned above, the CDT library requires additional R libraries to function.
+Namely:
+
+- R > 3.6 
+- BNLearn
+- PCALG
+- RCIT
+- kpcalg
+- SID
+- CAM
+
+Docker installation is reccomended.
