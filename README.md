@@ -43,5 +43,14 @@ Namely:
 - kpcalg
 - SID
 - CAM
+- V8
+- clue
+- randomForest
+- lattice
+- devtools
+- MASS
+- momentchi2
+- devtools
+- sparsebn
 
 Docker installation is reccomended.
